@@ -3,7 +3,7 @@
 
 ## Installation - [Nuget](https://www.nuget.org/packages/Timersky.Config)
 ```
-dotnet add package Timersky.Config --version 1.0.0
+dotnet add package Timersky.Config --version 1.0.1
 ```
 
 ## Usage
@@ -27,6 +27,7 @@ public class Program
 
 public class Config : IConfig
 {
+    [TomlProperty("debug")] public bool Debug { get; set; } = false;
     [TomlProperty("some_property")] public string SomeProperty { get; set; } = "Hello World!";
 }
 ```
