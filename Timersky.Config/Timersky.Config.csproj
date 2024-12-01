@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Timersky.Config</Title>
+        <Authors>Time2138</Authors>
+        <Description>Yet another cfg</Description>
+        <Copyright>(c) Ivan Timersky 2024</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Samboy063.Tomlet" Version="5.4.0" />
+      <PackageReference Include="Timersky.Log" Version="1.0.1" />
+    </ItemGroup>
+
+</Project>
