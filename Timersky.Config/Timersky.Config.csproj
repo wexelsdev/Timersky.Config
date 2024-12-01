@@ -7,8 +7,12 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Timersky.Config</Title>
         <Authors>Time2138</Authors>
-        <Description>Yet another cfg</Description>
+        <Description>Yet another cfg on toml</Description>
         <Copyright>(c) Ivan Timersky 2024</Copyright>
+        <PackageLicenseUrl>https://github.com/Time2138/Timersky.Config/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/Time2138/Timersky.Config</RepositoryUrl>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
     </PropertyGroup>
 
     <ItemGroup>
