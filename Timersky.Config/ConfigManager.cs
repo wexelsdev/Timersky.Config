@@ -53,7 +53,6 @@ public sealed class ConfigManager
             }
         }
         
-        Logger.DebugIsAllowed = config.Debug;
         return config;
     }
 }

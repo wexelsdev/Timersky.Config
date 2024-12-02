@@ -11,9 +11,10 @@
         <Copyright>(c) Ivan Timersky 2024</Copyright>
         <PackageLicenseUrl>https://github.com/Time2138/Timersky.Config/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/Time2138/Timersky.Config</RepositoryUrl>
-        <AssemblyVersion>1.0.2</AssemblyVersion>
-        <FileVersion>1.0.2</FileVersion>
-        <Version>1.0.2</Version>
+        <AssemblyVersion>1.0.3</AssemblyVersion>
+        <FileVersion>1.0.3</FileVersion>
+        <Version>1.0.3</Version>
+        <NeutralLanguage>en-US</NeutralLanguage>
     </PropertyGroup>
 
     <ItemGroup>
