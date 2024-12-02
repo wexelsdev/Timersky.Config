@@ -3,7 +3,7 @@
 
 ## Installation - [Nuget](https://www.nuget.org/packages/Timersky.Config)
 ```
-dotnet add package Timersky.Config --version 1.0.1
+dotnet add package Timersky.Config --version 1.0.2
 ```
 
 ## Usage
