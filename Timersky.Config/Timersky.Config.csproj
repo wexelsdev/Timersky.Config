@@ -11,15 +11,15 @@
         <Copyright>(c) Ivan Timersky 2024</Copyright>
         <PackageLicenseUrl>https://github.com/Time2138/Timersky.Config/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/Time2138/Timersky.Config</RepositoryUrl>
-        <AssemblyVersion>1.0.5</AssemblyVersion>
-        <FileVersion>1.0.5</FileVersion>
-        <Version>1.0.5</Version>
+        <AssemblyVersion>1.0.6</AssemblyVersion>
+        <FileVersion>1.0.6</FileVersion>
+        <Version>1.0.6</Version>
         <NeutralLanguage>en-US</NeutralLanguage>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Samboy063.Tomlet" Version="5.4.0" />
-      <PackageReference Include="Timersky.Log" Version="1.0.6" />
+      <PackageReference Include="Timersky.Log" Version="1.0.7" />
     </ItemGroup>
 
 </Project>
