@@ -50,6 +50,8 @@ public sealed class ConfigManager
             }
             catch (Exception e)
             {
+                Log.Log.Initialize();
+                
                 Log.Log.Error(e);
             
                 File.Delete(path);

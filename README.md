@@ -3,7 +3,7 @@
 
 ## Installation - [Nuget](https://www.nuget.org/packages/Timersky.Config)
 ```
-dotnet add package Timersky.Config --version 1.0.6
+dotnet add package Timersky.Config --version 1.0.7
 ```
 
 ## Usage
@@ -17,7 +17,6 @@ namespace SomeNamespace;
 public class Program
 {
     private static readonly Config Config = ConfigManager.LoadConfig<Config>();
-    private static readonly Logger Log = new(); // not necessarily
     
     public static void Main(string[] args)
     {
