@@ -1,12 +1,9 @@
-using Timersky.Log;
 using Tomlet;
 
 namespace Timersky.Config;
 
 public sealed class ConfigManager
 {
-    private static readonly Logger Log = new();
-    
     private static T GenConfig<T>(string path) where T : IConfig
     {
         File.Create(path).Close();
@@ -53,7 +50,7 @@ public sealed class ConfigManager
             }
             catch (Exception e)
             {
-                Log.Error(e.Message);
+                Log.Log.Error(e);
             
                 File.Delete(path);
             
