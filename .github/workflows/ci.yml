@@ -29,10 +29,10 @@ jobs:
       run: dotnet test --no-build --verbosity normal
 
     - name: shshshshs
-      run: ls Timersky.Config/
+      run: ls
 
     - name: Pack NuGet package
-      run: dotnet pack Timersky.Config/ --configuration Release --output nuget
+      run: dotnet pack --configuration Release --output nuget
 
     - name: Publish NuGet package
       run: dotnet nuget push nuget/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
